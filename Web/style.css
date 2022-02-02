@@ -1,0 +1,89 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #165ee6;
+  font-weight: bold;
+}
+
+/* Cursor */
+:root {
+  cursor: url(images/cursor/frame_1.png), default;
+  animation: cursor_default 700ms infinite;
+  -webkit-animation: cursor_default 700ms infinite;
+}
+
+/* Default Cursor Animation - Fixed by "Chemist Desnomad" */
+@-webkit-keyframes cursor_default {
+  0%, 100% {
+    cursor: url(images/cursor/frame_1.png), default;
+  }
+
+  12.5% {
+    cursor: url(images/cursor/frame_2.png), default;
+  }
+
+  25% {
+    cursor: url(images/cursor/frame_3.png), default;
+  }
+
+  37.5% {
+    cursor: url(images/cursor/frame_4.png), default;
+  }
+
+  50% {
+    cursor: url(images/cursor/frame_5.png), default;
+  }
+
+  62.5% {
+    cursor: url(images/cursor/frame_6.png), default;
+  }
+
+  75% {
+    cursor: url(images/cursor/frame_7.png), default;
+  }
+
+  87.5% {
+    cursor: url(images/cursor/frame_8.png), default;
+  }
+}
+
+@keyframes cursor_default {
+  0%, 100% {
+    cursor: url(images/cursor/frame_1.png), default;
+  }
+
+  12.5% {
+    cursor: url(images/cursor/frame_2.png), default;
+  }
+
+  25% {
+    cursor: url(images/cursor/frame_3.png), default;
+  }
+
+  37.5% {
+    cursor: url(images/cursor/frame_4.png), default;
+  }
+
+  50% {
+    cursor: url(images/cursor/frame_5.png), default;
+  }
+
+  62.5% {
+    cursor: url(images/cursor/frame_6.png), default;
+  }
+
+  75% {
+    cursor: url(images/cursor/frame_7.png), default;
+  }
+
+  87.5% {
+    cursor: url(images/cursor/frame_8.png), default;
+  }
+}
+/* Cursor END */
